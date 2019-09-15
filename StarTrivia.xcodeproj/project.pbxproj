@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABF1468232DC9FF00D2300A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF1467232DC9FF00D2300A /* AppDelegate.swift */; };
+		DABF146A232DC9FF00D2300A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF1469232DC9FF00D2300A /* ViewController.swift */; };
+		DABF146D232DC9FF00D2300A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABF146B232DC9FF00D2300A /* Main.storyboard */; };
+		DABF146F232DCA0100D2300A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABF146E232DCA0100D2300A /* Assets.xcassets */; };
+		DABF1472232DCA0100D2300A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABF1470232DCA0100D2300A /* LaunchScreen.storyboard */; };
+		DABF147D232DCA0100D2300A /* StarTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF147C232DCA0100D2300A /* StarTriviaTests.swift */; };
+		DABF1488232DCA0100D2300A /* StarTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF1487232DCA0100D2300A /* StarTriviaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABF1479232DCA0100D2300A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABF145C232DC9FF00D2300A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABF1463232DC9FF00D2300A;
+			remoteInfo = StarTrivia;
+		};
+		DABF1484232DCA0100D2300A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABF145C232DC9FF00D2300A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABF1463232DC9FF00D2300A;
+			remoteInfo = StarTrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DABF1464232DC9FF00D2300A /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABF1467232DC9FF00D2300A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DABF1469232DC9FF00D2300A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DABF146C232DC9FF00D2300A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABF146E232DCA0100D2300A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABF1471232DCA0100D2300A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABF1473232DCA0100D2300A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABF1478232DCA0100D2300A /* StarTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABF147C232DCA0100D2300A /* StarTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTriviaTests.swift; sourceTree = "<group>"; };
+		DABF147E232DCA0100D2300A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABF1483232DCA0100D2300A /* StarTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABF1487232DCA0100D2300A /* StarTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTriviaUITests.swift; sourceTree = "<group>"; };
+		DABF1489232DCA0100D2300A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABF1461232DC9FF00D2300A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF1475232DCA0100D2300A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF1480232DCA0100D2300A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABF145B232DC9FF00D2300A = {
+			isa = PBXGroup;
+			children = (
+				DABF1466232DC9FF00D2300A /* StarTrivia */,
+				DABF147B232DCA0100D2300A /* StarTriviaTests */,
+				DABF1486232DCA0100D2300A /* StarTriviaUITests */,
+				DABF1465232DC9FF00D2300A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABF1465232DC9FF00D2300A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABF1464232DC9FF00D2300A /* StarTrivia.app */,
+				DABF1478232DCA0100D2300A /* StarTriviaTests.xctest */,
+				DABF1483232DCA0100D2300A /* StarTriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABF1466232DC9FF00D2300A /* StarTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				DABF1467232DC9FF00D2300A /* AppDelegate.swift */,
+				DABF1469232DC9FF00D2300A /* ViewController.swift */,
+				DABF146B232DC9FF00D2300A /* Main.storyboard */,
+				DABF146E232DCA0100D2300A /* Assets.xcassets */,
+				DABF1470232DCA0100D2300A /* LaunchScreen.storyboard */,
+				DABF1473232DCA0100D2300A /* Info.plist */,
+			);
+			path = StarTrivia;
+			sourceTree = "<group>";
+		};
+		DABF147B232DCA0100D2300A /* StarTriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABF147C232DCA0100D2300A /* StarTriviaTests.swift */,
+				DABF147E232DCA0100D2300A /* Info.plist */,
+			);
+			path = StarTriviaTests;
+			sourceTree = "<group>";
+		};
+		DABF1486232DCA0100D2300A /* StarTriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DABF1487232DCA0100D2300A /* StarTriviaUITests.swift */,
+				DABF1489232DCA0100D2300A /* Info.plist */,
+			);
+			path = StarTriviaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABF1463232DC9FF00D2300A /* StarTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABF148C232DCA0100D2300A /* Build configuration list for PBXNativeTarget "StarTrivia" */;
+			buildPhases = (
+				DABF1460232DC9FF00D2300A /* Sources */,
+				DABF1461232DC9FF00D2300A /* Frameworks */,
+				DABF1462232DC9FF00D2300A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarTrivia;
+			productName = StarTrivia;
+			productReference = DABF1464232DC9FF00D2300A /* StarTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DABF1477232DCA0100D2300A /* StarTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABF148F232DCA0100D2300A /* Build configuration list for PBXNativeTarget "StarTriviaTests" */;
+			buildPhases = (
+				DABF1474232DCA0100D2300A /* Sources */,
+				DABF1475232DCA0100D2300A /* Frameworks */,
+				DABF1476232DCA0100D2300A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABF147A232DCA0100D2300A /* PBXTargetDependency */,
+			);
+			name = StarTriviaTests;
+			productName = StarTriviaTests;
+			productReference = DABF1478232DCA0100D2300A /* StarTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DABF1482232DCA0100D2300A /* StarTriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABF1492232DCA0100D2300A /* Build configuration list for PBXNativeTarget "StarTriviaUITests" */;
+			buildPhases = (
+				DABF147F232DCA0100D2300A /* Sources */,
+				DABF1480232DCA0100D2300A /* Frameworks */,
+				DABF1481232DCA0100D2300A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABF1485232DCA0100D2300A /* PBXTargetDependency */,
+			);
+			name = StarTriviaUITests;
+			productName = StarTriviaUITests;
+			productReference = DABF1483232DCA0100D2300A /* StarTriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABF145C232DC9FF00D2300A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Brendon Bitencourt Braga";
+				TargetAttributes = {
+					DABF1463232DC9FF00D2300A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DABF1477232DCA0100D2300A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DABF1463232DC9FF00D2300A;
+					};
+					DABF1482232DCA0100D2300A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DABF1463232DC9FF00D2300A;
+					};
+				};
+			};
+			buildConfigurationList = DABF145F232DC9FF00D2300A /* Build configuration list for PBXProject "StarTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABF145B232DC9FF00D2300A;
+			productRefGroup = DABF1465232DC9FF00D2300A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABF1463232DC9FF00D2300A /* StarTrivia */,
+				DABF1477232DCA0100D2300A /* StarTriviaTests */,
+				DABF1482232DCA0100D2300A /* StarTriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABF1462232DC9FF00D2300A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF1472232DCA0100D2300A /* LaunchScreen.storyboard in Resources */,
+				DABF146F232DCA0100D2300A /* Assets.xcassets in Resources */,
+				DABF146D232DC9FF00D2300A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF1476232DCA0100D2300A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF1481232DCA0100D2300A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABF1460232DC9FF00D2300A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF146A232DC9FF00D2300A /* ViewController.swift in Sources */,
+				DABF1468232DC9FF00D2300A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF1474232DCA0100D2300A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF147D232DCA0100D2300A /* StarTriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF147F232DCA0100D2300A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF1488232DCA0100D2300A /* StarTriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DABF147A232DCA0100D2300A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABF1463232DC9FF00D2300A /* StarTrivia */;
+			targetProxy = DABF1479232DCA0100D2300A /* PBXContainerItemProxy */;
+		};
+		DABF1485232DCA0100D2300A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABF1463232DC9FF00D2300A /* StarTrivia */;
+			targetProxy = DABF1484232DCA0100D2300A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DABF146B232DC9FF00D2300A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABF146C232DC9FF00D2300A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABF1470232DCA0100D2300A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABF1471232DCA0100D2300A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABF148A232DCA0100D2300A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DABF148B232DCA0100D2300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABF148D232DCA0100D2300A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3CKR2Q8L8;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brendonbitencourt.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABF148E232DCA0100D2300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3CKR2Q8L8;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brendonbitencourt.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DABF1490232DCA0100D2300A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3CKR2Q8L8;
+				INFOPLIST_FILE = StarTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brendonbitencourt.StarTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarTrivia.app/StarTrivia";
+			};
+			name = Debug;
+		};
+		DABF1491232DCA0100D2300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3CKR2Q8L8;
+				INFOPLIST_FILE = StarTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brendonbitencourt.StarTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarTrivia.app/StarTrivia";
+			};
+			name = Release;
+		};
+		DABF1493232DCA0100D2300A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3CKR2Q8L8;
+				INFOPLIST_FILE = StarTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brendonbitencourt.StarTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarTrivia;
+			};
+			name = Debug;
+		};
+		DABF1494232DCA0100D2300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3CKR2Q8L8;
+				INFOPLIST_FILE = StarTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brendonbitencourt.StarTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarTrivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABF145F232DC9FF00D2300A /* Build configuration list for PBXProject "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABF148A232DCA0100D2300A /* Debug */,
+				DABF148B232DCA0100D2300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABF148C232DCA0100D2300A /* Build configuration list for PBXNativeTarget "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABF148D232DCA0100D2300A /* Debug */,
+				DABF148E232DCA0100D2300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABF148F232DCA0100D2300A /* Build configuration list for PBXNativeTarget "StarTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABF1490232DCA0100D2300A /* Debug */,
+				DABF1491232DCA0100D2300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABF1492232DCA0100D2300A /* Build configuration list for PBXNativeTarget "StarTriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABF1493232DCA0100D2300A /* Debug */,
+				DABF1494232DCA0100D2300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABF145C232DC9FF00D2300A /* Project object */;
+}
