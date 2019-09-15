@@ -14,6 +14,9 @@
 		DABF1472232DCA0100D2300A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABF1470232DCA0100D2300A /* LaunchScreen.storyboard */; };
 		DABF147D232DCA0100D2300A /* StarTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF147C232DCA0100D2300A /* StarTriviaTests.swift */; };
 		DABF1488232DCA0100D2300A /* StarTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF1487232DCA0100D2300A /* StarTriviaUITests.swift */; };
+		DABF1498232DCE4C00D2300A /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABF1495232DCE4C00D2300A /* Starjedi.ttf */; };
+		DABF1499232DCE4C00D2300A /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABF1496232DCE4C00D2300A /* Starjout.ttf */; };
+		DABF149A232DCE4C00D2300A /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABF1497232DCE4C00D2300A /* Starjhol.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DABF1483232DCA0100D2300A /* StarTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABF1487232DCA0100D2300A /* StarTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTriviaUITests.swift; sourceTree = "<group>"; };
 		DABF1489232DCA0100D2300A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABF1495232DCE4C00D2300A /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		DABF1496232DCE4C00D2300A /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		DABF1497232DCE4C00D2300A /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 		DABF1466232DC9FF00D2300A /* StarTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				DABF149D232DCE8100D2300A /* Model */,
+				DABF149E232DCE8600D2300A /* View */,
+				DABF149F232DCE8A00D2300A /* Controller */,
+				DABF149C232DCE6B00D2300A /* Resources */,
 				DABF1467232DC9FF00D2300A /* AppDelegate.swift */,
 				DABF1469232DC9FF00D2300A /* SelectPersonViewController.swift */,
 				DABF146B232DC9FF00D2300A /* Main.storyboard */,
@@ -123,6 +133,45 @@
 				DABF1489232DCA0100D2300A /* Info.plist */,
 			);
 			path = StarTriviaUITests;
+			sourceTree = "<group>";
+		};
+		DABF149B232DCE5900D2300A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DABF1495232DCE4C00D2300A /* Starjedi.ttf */,
+				DABF1497232DCE4C00D2300A /* Starjhol.ttf */,
+				DABF1496232DCE4C00D2300A /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DABF149C232DCE6B00D2300A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DABF149B232DCE5900D2300A /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DABF149D232DCE8100D2300A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DABF149E232DCE8600D2300A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DABF149F232DCE8A00D2300A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DABF1472232DCA0100D2300A /* LaunchScreen.storyboard in Resources */,
+				DABF149A232DCE4C00D2300A /* Starjhol.ttf in Resources */,
 				DABF146F232DCA0100D2300A /* Assets.xcassets in Resources */,
+				DABF1498232DCE4C00D2300A /* Starjedi.ttf in Resources */,
+				DABF1499232DCE4C00D2300A /* Starjout.ttf in Resources */,
 				DABF146D232DC9FF00D2300A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
