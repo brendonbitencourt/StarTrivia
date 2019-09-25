@@ -9,10 +9,13 @@
 import UIKit
 
 class SelectPersonViewController: UIViewController {
-
+    
+    let personAPI = PersonAPI()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        personAPI.getRandomPersonUrlSession()
     }
 
 }

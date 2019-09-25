@@ -19,6 +19,8 @@
 		DABF149A232DCE4C00D2300A /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABF1497232DCE4C00D2300A /* Starjhol.ttf */; };
 		DABF14A1232DD43000D2300A /* BlackBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF14A0232DD43000D2300A /* BlackBackgroundView.swift */; };
 		DABF14A4232DDC2200D2300A /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF14A3232DDC2200D2300A /* Constans.swift */; };
+		DACD0C26233AEA1100A23731 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD0C25233AEA1100A23731 /* PersonAPI.swift */; };
+		DACD0C28233AF60600A23731 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD0C27233AF60600A23731 /* PersonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		DABF1497232DCE4C00D2300A /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
 		DABF14A0232DD43000D2300A /* BlackBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBackgroundView.swift; sourceTree = "<group>"; };
 		DABF14A3232DDC2200D2300A /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		DACD0C25233AEA1100A23731 /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
+		DACD0C27233AF60600A23731 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				DABF149F232DCE8A00D2300A /* Controller */,
 				DABF149C232DCE6B00D2300A /* Resources */,
 				DABF14A2232DDC1000D2300A /* Utils */,
+				DACD0C24233AE9F600A23731 /* Services */,
 				DABF1467232DC9FF00D2300A /* AppDelegate.swift */,
 				DABF146B232DC9FF00D2300A /* Main.storyboard */,
 				DABF146E232DCA0100D2300A /* Assets.xcassets */,
@@ -160,6 +165,7 @@
 		DABF149D232DCE8100D2300A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DACD0C27233AF60600A23731 /* PersonModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +192,14 @@
 				DABF14A3232DDC2200D2300A /* Constans.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		DACD0C24233AE9F600A23731 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DACD0C25233AEA1100A23731 /* PersonAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,9 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACD0C28233AF60600A23731 /* PersonModel.swift in Sources */,
 				DABF146A232DC9FF00D2300A /* SelectPersonViewController.swift in Sources */,
 				DABF14A1232DD43000D2300A /* BlackBackgroundView.swift in Sources */,
 				DABF14A4232DDC2200D2300A /* Constans.swift in Sources */,
+				DACD0C26233AEA1100A23731 /* PersonAPI.swift in Sources */,
 				DABF1468232DC9FF00D2300A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,4 +11,6 @@ import UIKit
 
 struct Contants {
     static let BLACK_BG = UIColor.black.withAlphaComponent(0.7).cgColor
+    static let URL_BASE = "https://swapi.co/api/"
+    static let PERSON_URL = URL_BASE + "people/"
 }
