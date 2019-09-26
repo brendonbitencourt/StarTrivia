@@ -14,3 +14,5 @@ struct Contants {
     static let URL_BASE = "https://swapi.co/api/"
     static let PERSON_URL = URL_BASE + "people/"
 }
+
+typealias PersonReponseCompletion = (PersonModel?) -> Void
