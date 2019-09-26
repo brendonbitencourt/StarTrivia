@@ -22,11 +22,19 @@ class SelectPersonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        personAPI.getRandomPersonUrlSession { (person) in
+    }
+    
+    @IBAction func randomPressed(_ sender: Any) {
+        let random = Int.random(in: 1...87)
+        personAPI.getRandomPersonUrlSession(id: random) { (person) in
             guard let person = person else { return }
-            print(person)
+            self.nameLabel.text = person.name
+            self.heightLabel.text = person.height
+            self.massLabel.text = person.mass
+            self.hairLabel.text = person.hair
+            self.birthYearLabel.text = person.birthYear
+            self.genderLabel.text = person.gender
         }
     }
-
+    
 }
-

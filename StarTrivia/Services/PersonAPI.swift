@@ -10,12 +10,12 @@ import Foundation
 
 class PersonAPI {
     
-    func getRandomPersonUrlSession(completion: @escaping PersonReponseCompletion) {
-        guard let url = URL(string: Contants.PERSON_URL + "1") else { return }
+    func getRandomPersonUrlSession(id: Int, completion: @escaping PersonReponseCompletion) {
+        guard let url = URL(string: "\(Contants.PERSON_URL)\(id)") else { return }
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard error == nil else {
                 debugPrint(error.debugDescription)
-                completion(nil)
+                DispatchQueue.main.async { completion(nil) }
                 return
             }
             guard let data = data else { return }
@@ -23,10 +23,10 @@ class PersonAPI {
                 let jsonData = try JSONSerialization.jsonObject(with: data, options: [])
                 guard let json = jsonData as? [String: Any] else { return }
                 let person = self.parsePersonManual(json: json)
-                completion(person)
+                DispatchQueue.main.async { completion(person) }
             } catch {
                 debugPrint(error.localizedDescription)
-                completion(nil)
+                DispatchQueue.main.async { completion(nil) }
                 return
             }
         }
