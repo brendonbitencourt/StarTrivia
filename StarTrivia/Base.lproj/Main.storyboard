@@ -188,46 +188,46 @@
                                 <rect key="frame" x="20" y="595.5" width="374" height="75"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="JAd-oN-gGQ">
-                                        <rect key="frame" x="20" y="20" width="334" height="35"/>
+                                        <rect key="frame" x="20" y="22.5" width="334" height="30"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9H4-tM-b69">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9H4-tM-b69" customClass="FadeEnabledButton" customModule="StarTrivia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="35" id="Kjc-d7-bcC"/>
-                                                    <constraint firstAttribute="width" constant="35" id="rhL-sC-65R"/>
+                                                    <constraint firstAttribute="height" constant="30" id="Kjc-d7-bcC"/>
+                                                    <constraint firstAttribute="width" constant="30" id="rhL-sC-65R"/>
                                                 </constraints>
                                                 <state key="normal" image="homeworld_1"/>
                                                 <connections>
                                                     <action selector="homewordPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h4-W6-tuv"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpu-ga-0Jm">
-                                                <rect key="frame" x="99.5" y="0.0" width="35" height="35"/>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpu-ga-0Jm" customClass="FadeEnabledButton" customModule="StarTrivia" customModuleProvider="target">
+                                                <rect key="frame" x="101.5" y="0.0" width="30" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="35" id="b4S-B1-Hwt"/>
-                                                    <constraint firstAttribute="width" constant="35" id="yiy-Es-btd"/>
+                                                    <constraint firstAttribute="height" constant="30" id="b4S-B1-Hwt"/>
+                                                    <constraint firstAttribute="width" constant="30" id="yiy-Es-btd"/>
                                                 </constraints>
                                                 <state key="normal" image="vehicles"/>
                                                 <connections>
                                                     <action selector="vehiclesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9wN-Eu-1Xz"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnp-x5-Oqb">
-                                                <rect key="frame" x="199.5" y="0.0" width="35" height="35"/>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnp-x5-Oqb" customClass="FadeEnabledButton" customModule="StarTrivia" customModuleProvider="target">
+                                                <rect key="frame" x="202.5" y="0.0" width="30" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="35" id="Siq-oG-BR9"/>
-                                                    <constraint firstAttribute="height" constant="35" id="u8F-cD-aDq"/>
+                                                    <constraint firstAttribute="width" constant="30" id="Siq-oG-BR9"/>
+                                                    <constraint firstAttribute="height" constant="30" id="u8F-cD-aDq"/>
                                                 </constraints>
                                                 <state key="normal" image="starships"/>
                                                 <connections>
                                                     <action selector="starshipsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZHM-np-r2f"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUX-He-b4a">
-                                                <rect key="frame" x="299" y="0.0" width="35" height="35"/>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUX-He-b4a" customClass="FadeEnabledButton" customModule="StarTrivia" customModuleProvider="target">
+                                                <rect key="frame" x="304" y="0.0" width="30" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="35" id="QV8-wj-xOn"/>
-                                                    <constraint firstAttribute="height" constant="35" id="RRF-yP-sH2"/>
+                                                    <constraint firstAttribute="width" constant="30" id="QV8-wj-xOn"/>
+                                                    <constraint firstAttribute="height" constant="30" id="RRF-yP-sH2"/>
                                                 </constraints>
                                                 <state key="normal" image="films"/>
                                                 <connections>
