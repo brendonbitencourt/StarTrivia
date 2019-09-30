@@ -8,8 +8,10 @@
 
 import UIKit
 
-class HomewordViewController: UIViewController {
-
+class HomewordViewController: UIViewController, PersonProtocol {
+    
+    var person: PersonModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

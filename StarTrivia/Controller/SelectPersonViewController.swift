@@ -22,6 +22,7 @@ class SelectPersonViewController: UIViewController {
     @IBOutlet weak var filmsButton: UIButton!
     
     let personAPI = PersonAPI()
+    var person: PersonModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +34,7 @@ class SelectPersonViewController: UIViewController {
         personAPI.getRandomPersonAlamofireAndCodable(id: random) { (person) in
             guard let person = person else { return }
             self.setupView(person)
+            self.person = person
         }
     }
     
@@ -50,16 +52,14 @@ class SelectPersonViewController: UIViewController {
         filmsButton.isEnabled = !person.filmsUrls.isEmpty
     }
     
-    @IBAction func homewordPressed(_ sender: Any) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if var destination = segue.destination as? PersonProtocol {
+            destination.person = self.person
+        }
     }
     
-    @IBAction func vehiclesPressed(_ sender: Any) {
-    }
-    
-    @IBAction func starshipsPressed(_ sender: Any) {
-    }
-    
-    @IBAction func filmsPressed(_ sender: Any) {
-    }
-    
+}
+
+protocol PersonProtocol {
+    var person: PersonModel? { get set }
 }
