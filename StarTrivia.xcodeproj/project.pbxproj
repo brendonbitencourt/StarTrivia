@@ -25,6 +25,10 @@
 		DABF14A4232DDC2200D2300A /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF14A3232DDC2200D2300A /* Constans.swift */; };
 		DACD0C26233AEA1100A23731 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD0C25233AEA1100A23731 /* PersonAPI.swift */; };
 		DACD0C28233AF60600A23731 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD0C27233AF60600A23731 /* PersonModel.swift */; };
+		DAE6FC662341824100F5B938 /* HomewordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6FC652341824100F5B938 /* HomewordViewController.swift */; };
+		DAE6FC682341825000F5B938 /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6FC672341825000F5B938 /* VehiclesViewController.swift */; };
+		DAE6FC6A2341825C00F5B938 /* StarshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6FC692341825C00F5B938 /* StarshipsViewController.swift */; };
+		DAE6FC6C2341826600F5B938 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6FC6B2341826600F5B938 /* FilmsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		DABF14A3232DDC2200D2300A /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		DACD0C25233AEA1100A23731 /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
 		DACD0C27233AF60600A23731 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		DAE6FC652341824100F5B938 /* HomewordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomewordViewController.swift; sourceTree = "<group>"; };
+		DAE6FC672341825000F5B938 /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
+		DAE6FC692341825C00F5B938 /* StarshipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsViewController.swift; sourceTree = "<group>"; };
+		DAE6FC6B2341826600F5B938 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		EECD1FBFA2B0FA093B61EA0D /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
 		F787E9D2467807F0467F678B /* Pods_StarTriviaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTriviaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -212,6 +220,10 @@
 			isa = PBXGroup;
 			children = (
 				DABF1469232DC9FF00D2300A /* SelectPersonViewController.swift */,
+				DAE6FC652341824100F5B938 /* HomewordViewController.swift */,
+				DAE6FC672341825000F5B938 /* VehiclesViewController.swift */,
+				DAE6FC692341825C00F5B938 /* StarshipsViewController.swift */,
+				DAE6FC6B2341826600F5B938 /* FilmsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -487,12 +499,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE6FC682341825000F5B938 /* VehiclesViewController.swift in Sources */,
 				DACD0C28233AF60600A23731 /* PersonModel.swift in Sources */,
 				DABF146A232DC9FF00D2300A /* SelectPersonViewController.swift in Sources */,
+				DAE6FC6C2341826600F5B938 /* FilmsViewController.swift in Sources */,
 				DABF14A1232DD43000D2300A /* BlackBackgroundView.swift in Sources */,
+				DAE6FC662341824100F5B938 /* HomewordViewController.swift in Sources */,
 				DABF14A4232DDC2200D2300A /* Constans.swift in Sources */,
 				DA8EA77C233D8E4E00E499F5 /* FadeEnabledButton.swift in Sources */,
 				DACD0C26233AEA1100A23731 /* PersonAPI.swift in Sources */,
+				DAE6FC6A2341825C00F5B938 /* StarshipsViewController.swift in Sources */,
 				DABF1468232DC9FF00D2300A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

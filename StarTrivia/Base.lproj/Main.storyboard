@@ -306,10 +306,10 @@
             </objects>
             <point key="canvasLocation" x="128.98550724637681" y="777.45535714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Homeword View Controller-->
         <scene sceneID="Qp1-PL-xcU">
             <objects>
-                <viewController id="H7S-yJ-3lT" sceneMemberID="viewController">
+                <viewController id="H7S-yJ-3lT" customClass="HomewordViewController" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DeM-ph-SJG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -333,10 +333,10 @@
             </objects>
             <point key="canvasLocation" x="2377" y="-258"/>
         </scene>
-        <!--View Controller-->
+        <!--Vehicles View Controller-->
         <scene sceneID="PH2-l7-FI7">
             <objects>
-                <viewController id="ea5-ii-L76" sceneMemberID="viewController">
+                <viewController id="ea5-ii-L76" customClass="VehiclesViewController" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="blm-8W-7ba">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -360,10 +360,10 @@
             </objects>
             <point key="canvasLocation" x="2377" y="445"/>
         </scene>
-        <!--View Controller-->
+        <!--Starships View Controller-->
         <scene sceneID="8kA-5R-Jfq">
             <objects>
-                <viewController id="8ER-5U-0ff" sceneMemberID="viewController">
+                <viewController id="8ER-5U-0ff" customClass="StarshipsViewController" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UOt-up-43S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -387,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="2377" y="1138"/>
         </scene>
-        <!--View Controller-->
+        <!--Films View Controller-->
         <scene sceneID="FkZ-bb-TM4">
             <objects>
-                <viewController id="dFk-I7-uOF" sceneMemberID="viewController">
+                <viewController id="dFk-I7-uOF" customClass="FilmsViewController" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WiX-JI-rBj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
