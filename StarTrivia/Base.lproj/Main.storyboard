@@ -199,6 +199,7 @@
                                                 <state key="normal" image="homeworld_1"/>
                                                 <connections>
                                                     <action selector="homewordPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h4-W6-tuv"/>
+                                                    <segue destination="H7S-yJ-3lT" kind="show" id="ECO-E1-NJM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpu-ga-0Jm" customClass="FadeEnabledButton" customModule="StarTrivia" customModuleProvider="target">
@@ -210,6 +211,7 @@
                                                 <state key="normal" image="vehicles"/>
                                                 <connections>
                                                     <action selector="vehiclesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9wN-Eu-1Xz"/>
+                                                    <segue destination="ea5-ii-L76" kind="show" id="bK9-QC-WJa"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnp-x5-Oqb" customClass="FadeEnabledButton" customModule="StarTrivia" customModuleProvider="target">
@@ -221,6 +223,7 @@
                                                 <state key="normal" image="starships"/>
                                                 <connections>
                                                     <action selector="starshipsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZHM-np-r2f"/>
+                                                    <segue destination="8ER-5U-0ff" kind="show" id="uET-nV-rc2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUX-He-b4a" customClass="FadeEnabledButton" customModule="StarTrivia" customModuleProvider="target">
@@ -232,6 +235,7 @@
                                                 <state key="normal" image="films"/>
                                                 <connections>
                                                     <action selector="filmsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hc8-vE-5zK"/>
+                                                    <segue destination="dFk-I7-uOF" kind="show" id="L0v-8y-bku"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -302,11 +306,123 @@
             </objects>
             <point key="canvasLocation" x="128.98550724637681" y="777.45535714285711"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Qp1-PL-xcU">
+            <objects>
+                <viewController id="H7S-yJ-3lT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DeM-ph-SJG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeworld" translatesAutoresizingMaskIntoConstraints="NO" id="DU3-ax-m7q">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7mj-pK-kvp" firstAttribute="trailing" secondItem="DU3-ax-m7q" secondAttribute="trailing" id="1JR-NX-eTr"/>
+                            <constraint firstItem="DU3-ax-m7q" firstAttribute="top" secondItem="DeM-ph-SJG" secondAttribute="top" id="8Cm-eT-bfb"/>
+                            <constraint firstItem="DU3-ax-m7q" firstAttribute="leading" secondItem="7mj-pK-kvp" secondAttribute="leading" id="dx9-Bk-GTo"/>
+                            <constraint firstAttribute="bottom" secondItem="DU3-ax-m7q" secondAttribute="bottom" id="yO0-sI-DhZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7mj-pK-kvp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QZL-gj-Zsv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4i-hJ-7aM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2377" y="-258"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PH2-l7-FI7">
+            <objects>
+                <viewController id="ea5-ii-L76" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="blm-8W-7ba">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space3" translatesAutoresizingMaskIntoConstraints="NO" id="qgs-9X-Uay">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qgs-9X-Uay" firstAttribute="top" secondItem="blm-8W-7ba" secondAttribute="top" id="Nxd-Tu-Jdl"/>
+                            <constraint firstAttribute="bottom" secondItem="qgs-9X-Uay" secondAttribute="bottom" id="QmB-57-xIb"/>
+                            <constraint firstItem="iNV-HL-lfe" firstAttribute="trailing" secondItem="qgs-9X-Uay" secondAttribute="trailing" id="mVN-nU-GB8"/>
+                            <constraint firstItem="qgs-9X-Uay" firstAttribute="leading" secondItem="iNV-HL-lfe" secondAttribute="leading" id="wBq-b4-6jU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iNV-HL-lfe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rAg-0C-vSe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCf-an-M6h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2377" y="445"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8kA-5R-Jfq">
+            <objects>
+                <viewController id="8ER-5U-0ff" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UOt-up-43S">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space4" translatesAutoresizingMaskIntoConstraints="NO" id="lsr-Ht-19s">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lsr-Ht-19s" secondAttribute="bottom" id="CmK-tr-kX3"/>
+                            <constraint firstItem="lsr-Ht-19s" firstAttribute="top" secondItem="UOt-up-43S" secondAttribute="top" id="FyB-Df-ndL"/>
+                            <constraint firstItem="cne-oE-e5g" firstAttribute="trailing" secondItem="lsr-Ht-19s" secondAttribute="trailing" id="RMT-GZ-zJB"/>
+                            <constraint firstItem="lsr-Ht-19s" firstAttribute="leading" secondItem="cne-oE-e5g" secondAttribute="leading" id="r4b-57-Fgv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cne-oE-e5g"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gGC-h6-gEr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MgD-oJ-PV5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2377" y="1138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FkZ-bb-TM4">
+            <objects>
+                <viewController id="dFk-I7-uOF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WiX-JI-rBj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space2" translatesAutoresizingMaskIntoConstraints="NO" id="D6G-X1-kAF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wGG-8j-h46" firstAttribute="trailing" secondItem="D6G-X1-kAF" secondAttribute="trailing" id="Ej6-R2-2EC"/>
+                            <constraint firstItem="D6G-X1-kAF" firstAttribute="leading" secondItem="wGG-8j-h46" secondAttribute="leading" id="Ngh-jP-2v5"/>
+                            <constraint firstItem="D6G-X1-kAF" firstAttribute="top" secondItem="WiX-JI-rBj" secondAttribute="top" id="vVL-zN-plf"/>
+                            <constraint firstAttribute="bottom" secondItem="D6G-X1-kAF" secondAttribute="bottom" id="yQt-dl-wTg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wGG-8j-h46"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4ZP-kM-kMV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OZ8-AN-VWK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2377" y="1848"/>
+        </scene>
     </scenes>
     <resources>
         <image name="films" width="50" height="50"/>
+        <image name="homeworld" width="460" height="864"/>
         <image name="homeworld_1" width="50" height="50"/>
         <image name="space1" width="699" height="1120"/>
+        <image name="space2" width="329" height="610"/>
+        <image name="space3" width="470" height="877"/>
+        <image name="space4" width="278" height="488"/>
         <image name="starships" width="50" height="50"/>
         <image name="vehicles" width="50" height="50"/>
     </resources>
