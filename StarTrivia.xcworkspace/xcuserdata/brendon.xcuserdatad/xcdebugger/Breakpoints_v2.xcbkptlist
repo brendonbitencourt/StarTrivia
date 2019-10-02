@@ -3,4 +3,54 @@
    uuid = "5205BEEB-4797-4A79-B2B4-50C964B262E7"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82336837-3C09-4F2C-84A7-E71A943AA28E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StarTrivia/Controller/SelectPersonViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "randomPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "82336837-3C09-4F2C-84A7-E71A943AA28E - 4385b8173818ba46"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarTrivia.SelectPersonViewController.randomPressed(Any) -&gt; ()"
+                  moduleName = "StarTrivia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brendon/Documents/GitHub/StarTrivia/StarTrivia/Controller/SelectPersonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "207">
+               </Location>
+               <Location
+                  uuid = "82336837-3C09-4F2C-84A7-E71A943AA28E - 9c6f5562742fdd5d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;StarTrivia.PersonModel&gt;) -&gt; () in StarTrivia.SelectPersonViewController.randomPressed(Any) -&gt; ()"
+                  moduleName = "StarTrivia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brendon/Documents/GitHub/StarTrivia/StarTrivia/Controller/SelectPersonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

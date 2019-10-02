@@ -10,23 +10,29 @@ import UIKit
 
 class HomewordViewController: UIViewController, PersonProtocol {
     
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var climateLabel: UILabel!
+    @IBOutlet weak var terrainLabel: UILabel!
+    @IBOutlet weak var populateLabel: UILabel!
+    
     var person: PersonModel?
+    let api = HomewordAPI()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let url = person?.homeworldUrl {
+            api.getHomewordAlamofireAndCodable(url: url) { (homeword) in
+                guard let homeword = homeword else { return }
+                self.setupView(homeword)
+            }
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupView(_ homeword: HomewordModel) {
+        nameLabel.text = homeword.name
+        climateLabel.text = homeword.climate
+        terrainLabel.text = homeword.terrain
+        populateLabel.text = homeword.population
     }
-    */
 
 }

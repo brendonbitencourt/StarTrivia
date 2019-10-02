@@ -16,3 +16,4 @@ struct Contants {
 }
 
 typealias PersonReponseCompletion = (PersonModel?) -> Void
+typealias HomewordResponseCompletion = (HomewordModel?) -> Void

@@ -25,6 +25,8 @@
 		DABF14A4232DDC2200D2300A /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF14A3232DDC2200D2300A /* Constans.swift */; };
 		DACD0C26233AEA1100A23731 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD0C25233AEA1100A23731 /* PersonAPI.swift */; };
 		DACD0C28233AF60600A23731 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD0C27233AF60600A23731 /* PersonModel.swift */; };
+		DAD2ED182344351800115E4A /* HomewordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2ED172344351800115E4A /* HomewordModel.swift */; };
+		DAD2ED1A2344356A00115E4A /* HomewordAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2ED192344356A00115E4A /* HomewordAPI.swift */; };
 		DAE6FC662341824100F5B938 /* HomewordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6FC652341824100F5B938 /* HomewordViewController.swift */; };
 		DAE6FC682341825000F5B938 /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6FC672341825000F5B938 /* VehiclesViewController.swift */; };
 		DAE6FC6A2341825C00F5B938 /* StarshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6FC692341825C00F5B938 /* StarshipsViewController.swift */; };
@@ -77,6 +79,8 @@
 		DABF14A3232DDC2200D2300A /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		DACD0C25233AEA1100A23731 /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
 		DACD0C27233AF60600A23731 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		DAD2ED172344351800115E4A /* HomewordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomewordModel.swift; sourceTree = "<group>"; };
+		DAD2ED192344356A00115E4A /* HomewordAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomewordAPI.swift; sourceTree = "<group>"; };
 		DAE6FC652341824100F5B938 /* HomewordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomewordViewController.swift; sourceTree = "<group>"; };
 		DAE6FC672341825000F5B938 /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
 		DAE6FC692341825C00F5B938 /* StarshipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsViewController.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				DACD0C27233AF60600A23731 /* PersonModel.swift */,
+				DAD2ED172344351800115E4A /* HomewordModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				DACD0C25233AEA1100A23731 /* PersonAPI.swift */,
+				DAD2ED192344356A00115E4A /* HomewordAPI.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -499,7 +505,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD2ED182344351800115E4A /* HomewordModel.swift in Sources */,
 				DAE6FC682341825000F5B938 /* VehiclesViewController.swift in Sources */,
+				DAD2ED1A2344356A00115E4A /* HomewordAPI.swift in Sources */,
 				DACD0C28233AF60600A23731 /* PersonModel.swift in Sources */,
 				DABF146A232DC9FF00D2300A /* SelectPersonViewController.swift in Sources */,
 				DAE6FC6C2341826600F5B938 /* FilmsViewController.swift in Sources */,
