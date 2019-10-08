@@ -20,6 +20,7 @@ class SelectPersonViewController: UIViewController {
     @IBOutlet weak var vehiclesButton: UIButton!
     @IBOutlet weak var starshipsButton: UIButton!
     @IBOutlet weak var filmsButton: UIButton!
+    @IBOutlet weak var loadingActivityIndicator: UIActivityIndicatorView!
     
     let personAPI = PersonAPI()
     var person: PersonModel?
@@ -27,11 +28,16 @@ class SelectPersonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.loadingActivityIndicator.isHidden = true
     }
     
     @IBAction func randomPressed(_ sender: Any) {
         let random = Int.random(in: 1...87)
+        self.loadingActivityIndicator.isHidden = false
+        self.loadingActivityIndicator.startAnimating()
         personAPI.getRandomPersonAlamofireAndCodable(id: random) { (person) in
+            self.loadingActivityIndicator.stopAnimating()
+            self.loadingActivityIndicator.isHidden = true
             guard let person = person else { return }
             self.setupView(person)
             self.person = person
